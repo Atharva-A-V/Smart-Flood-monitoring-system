@@ -1,0 +1,16 @@
+numpy
+streamlit
+matplotlib
+seaborn
+pandas
+Pillow
+python-dotenv
+rasterio
+scikit-image
+sentence-transformers
+torch
+open-clip-torch
+kagglehub
+openai
+geopy
+google-generativeai
