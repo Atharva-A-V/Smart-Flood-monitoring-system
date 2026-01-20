@@ -1,6 +1,14 @@
-# Smart-Flood-monitoring-system
+# Smart Flood Monitoring System
 
-create requirments.txt file having : 
+RAG based flood monitoring system which uses landsat and modis satellite images with infrared and RGB bands.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+```
 numpy
 streamlit
 matplotlib
@@ -17,11 +25,39 @@ kagglehub
 openai
 geopy
 google-generativeai
+```
 
-create a .env file having the api key for the LLM (done to keep the api key safe )
-create a virtual environment using : python -m venv venv
-activate the virtual environment using : .\venv\Scripts\Activate.ps1
-install packages from requirements.txt : pip install -r requirements.txt
-after done, to launch project on streamlit simply use : streamlit run filename.py ( filename is name of the RAG file )
-install a tif image from google earth engine
-upload it in streamlit app to get the results
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+```
+Initialize a virtual environment 
+```
+```
+Download Requirements.txt
+```
+```
+Run the streamlit app
+```
+```
+Upload the .tif image to get image with different gradients
+```
+
+## Running the app
+
+streamlit run filename.py
+
+
+## Deployment
+
+Deployed on a streamlit app
+
+ 
+## Authors
+
+* **Atharva Vaishampayan** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
